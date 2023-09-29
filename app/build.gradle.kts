@@ -53,10 +53,47 @@ dependencies {
     implementation(libs.lifecycle.runtime.ktx)
     implementation(libs.activity.compose)
     implementation(platform(libs.compose.bom))
+
+    // UI
     implementation(libs.ui)
     implementation(libs.ui.graphics)
     implementation(libs.ui.tooling.preview)
-    implementation(libs.material3)
+    implementation(libs.ui.compose.navigation)
+    implementation(libs.material)
+
+    // Room
+    implementation(libs.room.runtime)
+    implementation(libs.room.ktx)
+    implementation(libs.room.paging)
+    implementation(libs.room.compiler)
+
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.converter)
+    implementation(libs.retrofit.serialization)
+    implementation(libs.okhttp3.logging.interceptor)
+
+    // Hilt
+    implementation(libs.hilt)
+    implementation(libs.hilt.android.compiler)
+    implementation(libs.hilt.compiler)
+    implementation(libs.hilt.navigation)
+
+    // Coil
+    implementation(libs.coil)
+
+    // DataStore
+    implementation(libs.datastore)
+
+    // Serialization
+    implementation(libs.serialization)
+
+    // Palette
+    implementation(libs.palette)
+
+    // Paging
+    implementation(libs.paging)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
