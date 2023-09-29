@@ -21,6 +21,7 @@ datastore = "1.0.0"
 paging = "3.3.0-alpha02"
 navigation = "2.7.3"
 serialization= "1.5.1"
+serializable = "1.9.0"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -79,5 +80,5 @@ palette = { module = "androidx.palette:palette-ktx", version.ref = "palette" }
 com-android-application = { id = "com.android.application", version.ref = "agp" }
 org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
 com-google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
-
+org-jetbrains-kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "serializable" }
 [bundles]
