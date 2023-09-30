@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "778454656720",
+    "project_id": "rickandmortyzara",
+    "storage_bucket": "rickandmortyzara.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778454656720:android:25d8a0a31f321400d0e0d5",
+        "android_client_info": {
+          "package_name": "com.dfavilav.zararickmorty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDltJBzlWQCTrc4HNPHK6N2YH43_cz-IoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
