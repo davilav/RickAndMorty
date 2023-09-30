@@ -1,4 +1,4 @@
-package com.dfavilav.zararickmorty.presentation.screens
+package com.dfavilav.zararickmorty.presentation.screens.splash
 
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.Box
@@ -12,6 +12,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavHostController
 import com.dfavilav.zararickmorty.R
+import com.dfavilav.zararickmorty.navigation.Screen
 import kotlinx.coroutines.delay
 
 @Composable
@@ -19,8 +20,9 @@ fun SplashScreen(
     navController: NavHostController
 ) {
     LaunchedEffect(key1 = true) {
-        delay(20000)
+        delay(5000)
         navController.popBackStack()
+        navController.navigate(Screen.Home.route)
     }
     Splash()
 }

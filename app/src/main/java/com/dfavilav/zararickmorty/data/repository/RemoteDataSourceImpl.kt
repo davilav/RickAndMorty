@@ -13,6 +13,7 @@ import com.dfavilav.zararickmorty.domain.repository.RemoteDataSource
 import com.dfavilav.zararickmorty.util.Constants.ITEMS_PER_PAGE
 import kotlinx.coroutines.flow.Flow
 
+@ExperimentalPagingApi
 class RemoteDataSourceImpl(
     private val rickAndMortyApi: RickAndMortyApi,
     private val rickAndMortyDatabase: RickAndMortyDatabase
@@ -20,7 +21,7 @@ class RemoteDataSourceImpl(
 
     private val characterDao = rickAndMortyDatabase.characterDao()
 
-    @OptIn(ExperimentalPagingApi::class)
+   
     override fun getAllCharacters(): Flow<PagingData<Character>> {
         val pagingSourceFactory = { characterDao.getAllCharacters() }
         return Pager(

@@ -74,9 +74,9 @@ class CharacterRemoteMediator(
                     }
                     val prevPage = response.info?.prev?.extractPageNumber()
                     val nextPage = response.info?.next?.extractPageNumber()
-                    val keys = response.results.map { hero ->
+                    val keys = response.results.map { character ->
                         CharacterRemoteKeys(
-                            id = hero.id,
+                            id = character.id,
                             prevPage = prevPage,
                             nextPage = nextPage,
                             lastUpdated = System.currentTimeMillis()
