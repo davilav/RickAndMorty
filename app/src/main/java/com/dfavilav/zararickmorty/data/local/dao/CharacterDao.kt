@@ -13,11 +13,11 @@ interface CharacterDao {
     @Query("SELECT * FROM character_table ORDER BY id ASC")
     fun getAllCharacters(): PagingSource<Int, Character>
 
-    @Query("SELECT * FROM character_table WHERE id=:heroId")
-    fun getSelectedCharacter(heroId: Int): Character
+    @Query("SELECT * FROM character_table WHERE id=:id")
+    fun getSelectedCharacter(id: Int): Character
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun addCharacters(heroes: List<Character>)
+    suspend fun addCharacters(characters: List<Character>)
 
     @Query("DELETE FROM character_table")
     suspend fun deleteAllCharacters()

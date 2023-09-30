@@ -11,9 +11,14 @@ import coil.annotation.ExperimentalCoilApi
 import com.dfavilav.zararickmorty.domain.use_cases.UseCases
 import com.dfavilav.zararickmorty.navigation.SetupNavGraph
 import com.dfavilav.zararickmorty.ui.theme.RickAndMortyAppTheme
+import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
 
+@ExperimentalMaterialApi
+@ExperimentalCoilApi
+@ExperimentalAnimationApi
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
     private lateinit var navController: NavHostController
@@ -21,12 +26,6 @@ class MainActivity : ComponentActivity() {
     @Inject
     lateinit var useCases: UseCases
 
-
-    @OptIn(
-        ExperimentalMaterialApi::class,
-        ExperimentalAnimationApi::class,
-        ExperimentalCoilApi::class
-    )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

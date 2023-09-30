@@ -7,7 +7,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import coil.annotation.ExperimentalCoilApi
-import com.dfavilav.zararickmorty.presentation.screens.SplashScreen
+import com.dfavilav.zararickmorty.presentation.screens.home.HomeScreen
+import com.dfavilav.zararickmorty.presentation.screens.splash.SplashScreen
 
 @ExperimentalMaterialApi
 @ExperimentalCoilApi
@@ -20,6 +21,9 @@ fun SetupNavGraph(navController: NavHostController) {
     ) {
         composable(route = Screen.Splash.route) {
             SplashScreen(navController = navController)
+        }
+        composable(route = Screen.Home.route) {
+            HomeScreen(navController = navController)
         }
     }
 }
