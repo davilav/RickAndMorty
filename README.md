@@ -82,7 +82,7 @@ En el proceso de desarrollo de una aplicación inspirada en la serie "Rick and M
 - **Investigación y conceptualización**: El primer paso consiste en investigar la serie "Rick and Morty" y comprender su estética, personajes, tramas y elementos visuales clave. Esto incluye ver episodios, analizar diseños de personajes y entornos, y comprender la esencia del programa.
   ![Img3](images/image5.png)
 
-[  ](https://www.figma.com/file/po68H4WnwtNz4PDwYptlGS/Rick%26Morty?type=design&node-id=230%3A8&mode=design&t=TUQiLlwhMRUXRMX0-1)
+[FIGMA](https://www.figma.com/file/po68H4WnwtNz4PDwYptlGS/Rick%26Morty?type=design&node-id=230%3A8&mode=design&t=TUQiLlwhMRUXRMX0-1)
 
 
 ## Arquitectura
