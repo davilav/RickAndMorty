@@ -19,7 +19,7 @@ fun HomeTopBar(onSearchClicked: () -> Unit) {
     TopAppBar(
         title = {
             Text(
-                text = "Explore",
+                text = "Rick & Morty",
                 color = MaterialTheme.colors.topAppBarContentColor
             )
         },

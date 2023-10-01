@@ -12,5 +12,5 @@ object Constants {
     const val ONE = 1
     const val ZERO_LONG = 0L
     const val MIN_BACKGROUND_IMAGE_HEIGHT = 0.4f
-    const val DETAILS_ARGUMENT_KEY = "id"
+    const val DETAILS_ARGUMENT_KEY = "characterId"
 }
