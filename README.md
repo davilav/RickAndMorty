@@ -7,6 +7,9 @@ El objetivo del proyecto es demostrar las mejores prácticas, proporcionar un co
 | Rick&MortyApp              |
 |----------------------------|
 
+https://github.com/davilav/RickAndMorty/assets/45363395/b1575041-9ede-4051-bc8a-32113a685e8a
+
+
 ## Table of Contents
 
 - [Análisis](#análisis)
