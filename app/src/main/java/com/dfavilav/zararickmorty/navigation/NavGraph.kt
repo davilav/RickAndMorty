@@ -11,6 +11,7 @@ import androidx.navigation.navArgument
 import coil.annotation.ExperimentalCoilApi
 import com.dfavilav.zararickmorty.presentation.screens.details.DetailsScreen
 import com.dfavilav.zararickmorty.presentation.screens.home.HomeScreen
+import com.dfavilav.zararickmorty.presentation.screens.search.SearchScreen
 import com.dfavilav.zararickmorty.presentation.screens.splash.SplashScreen
 import com.dfavilav.zararickmorty.util.Constants.DETAILS_ARGUMENT_KEY
 
@@ -36,6 +37,9 @@ fun SetupNavGraph(navController: NavHostController) {
             })
         ) {
             DetailsScreen(navController = navController)
+        }
+        composable(route = Screen.Search.route) {
+            SearchScreen(navController = navController)
         }
     }
 }
