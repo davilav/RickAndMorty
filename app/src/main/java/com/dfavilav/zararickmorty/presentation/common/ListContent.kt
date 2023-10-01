@@ -35,6 +35,7 @@ import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.dfavilav.zararickmorty.R
 import com.dfavilav.zararickmorty.domain.model.Character
+import com.dfavilav.zararickmorty.navigation.Screen
 import com.dfavilav.zararickmorty.presentation.components.ShimmerEffect
 import com.dfavilav.zararickmorty.ui.theme.Blue200
 import com.dfavilav.zararickmorty.ui.theme.CHARACTER_ITEM_HEIGHT
@@ -107,7 +108,7 @@ fun CharacterItem(
     Box(
         modifier = Modifier
             .height(CHARACTER_ITEM_HEIGHT)
-            .clickable {},
+            .clickable { navController.navigate(Screen.Details.passCharacterId(character.id)) },
         contentAlignment = Alignment.BottomStart
     ) {
         Surface(shape = RoundedCornerShape(size = LARGE_PADDING)) {
