@@ -5,15 +5,10 @@ import androidx.paging.PagingData
 import com.dfavilav.zararickmorty.data.local.RickAndMortyDatabase
 import com.dfavilav.zararickmorty.data.local.dao.CharacterDao
 import com.dfavilav.zararickmorty.data.remote.RickAndMortyApi
-import junit.framework.TestCase.assertEquals
 import junit.framework.TestCase.assertNotNull
-import kotlinx.coroutines.flow.first
-import kotlinx.coroutines.runBlocking
 import org.junit.Before
 import org.junit.Test
 import org.mockito.Mock
-import org.mockito.Mockito.times
-import org.mockito.Mockito.verify
 import org.mockito.Mockito.`when`
 import org.mockito.MockitoAnnotations
 
