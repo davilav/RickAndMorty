@@ -115,7 +115,7 @@ Se implementa este proyecto en Firebase para el manejo principalmente:
 
 ### Integración continua
 
-Este proyecto está alojado en el repositorio Bitbucket el cual permite realiza un proceso de desarrollo basado en integración continua mediante la ejecución de un pipeline que verifica la compilación correcta de la aplicación antes de ser mezclado a la rama principal.
+Este proyecto está alojado en el repositorio Github el cual permite realiza un proceso de desarrollo basado en integración continua mediante la ejecución de un pipeline que verifica la compilación correcta de la aplicación antes de ser mezclado a la rama principal.
 
 - **Ramas por funcionalidad o  característica**: Por cada nueva funcionalidad o característica se crea una rama partiendo de master.
 
@@ -153,7 +153,7 @@ Este proyecto aprovecha muchas bibliotecas, plugins y herramientas populares del
     - Paging 3
     - Room
     - Hilt
-- Material 3
+- Material
 - Coroutines
 - Retrofit2
 - Gson
